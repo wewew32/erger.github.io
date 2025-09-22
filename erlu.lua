@@ -2338,7 +2338,6 @@ e("ImageLabel",{
 Size=UDim2.new(0,i.ToolTipSize,0,i.ToolTipSize/2),
 BackgroundTransparency=1,
 Rotation=180,
-Image="rbxassetid://89524607682719",
 ThemeTag={
 ImageColor3="Accent",
 },
@@ -2348,7 +2347,6 @@ Size=UDim2.new(0,i.ToolTipSize,0,i.ToolTipSize/2),
 BackgroundTransparency=1,
 LayoutOrder=99,
 ImageTransparency=.9,
-Image="rbxassetid://89524607682719",
 ThemeTag={
 ImageColor3="Text",
 },
@@ -4198,7 +4196,6 @@ Visible=k and true or false
 g("ImageLabel",{
 Size=UDim2.new(0,18,0,18),
 BackgroundTransparency=1,
-Image="rbxassetid://132464694294269",
 
 
 
@@ -4405,13 +4402,11 @@ Size=UDim2.new(0,18,0,18),
 ScaleType=Enum.ScaleType.Fit,
 AnchorPoint=Vector2.new(0.5,0.5),
 BackgroundTransparency=1,
-Image="http://www.roblox.com/asset/?id=4805639000",
 })
 
 u.UIElements.SatVibMap=e("ImageLabel",{
 Size=UDim2.fromOffset(160,158),
 Position=UDim2.fromOffset(0,40),
-Image="rbxassetid://4155801252",
 BackgroundColor3=Color3.fromHSV(x,1,1),
 BackgroundTransparency=0,
 Parent=w.UIElements.Main,
@@ -4704,7 +4699,6 @@ e("UICorner",{
 CornerRadius=UDim.new(1,0),
 }),
 e("ImageLabel",{
-Image="rbxassetid://14204231522",
 ImageTransparency=0.45,
 ScaleType=Enum.ScaleType.Tile,
 TileSize=UDim2.fromOffset(40,40),
@@ -6341,7 +6335,6 @@ Active=true
 j("ImageLabel",{
 Size=UDim2.new(0,96,0,96),
 BackgroundTransparency=1,
-Image="rbxassetid://120997033468887",
 Position=UDim2.new(0.5,-16,0.5,-16),
 AnchorPoint=Vector2.new(0.5,0.5),
 ImageTransparency=1,
@@ -6475,7 +6468,6 @@ PaddingBottom=UDim.new(0,r.UIPadding/2),
 })
 
 local w=j("ImageLabel",{
-Image="rbxassetid://8992230677",
 ImageColor3=Color3.new(0,0,0),
 ImageTransparency=1,
 Size=UDim2.new(1,120,1,116),
