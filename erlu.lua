@@ -29,7 +29,6 @@ local e=loadstring(game:HttpGetAsync"https://raw.githubusercontent.com/Footagesu
 e.SetIconsType"lucide"
 
 local f={
-Font="rbxassetid://12187365364",
 CanDraggable=true,
 Theme=nil,
 Themes=nil,
@@ -234,11 +233,6 @@ function f.NewRoundFrame(g,h,i,j,k)
 
 
 local l=f.New(k and"ImageButton"or"ImageLabel",{
-Image=h=="Squircle"and"rbxassetid://80999662900595"
-or h=="SquircleOutline"and"rbxassetid://117788349049947"
-or h=="SquircleOutline2"and"rbxassetid://117817408534198"
-or h=="Shadow-sm"and"rbxassetid://84825982946844"
-or h=="Squircle-TL-TR"and"rbxassetid://73569156276236",
 ScaleType="Slice",
 SliceCenter=h~="Shadow-sm"and Rect.new(256
 ,256
@@ -393,7 +387,7 @@ p.ImageLabel.Image=getcustomasset(q)
 end)
 end)
 if not r then
-warn("[ WindUI.Creator ]  '"..identifyexecutor().."' doesnt support the URL Images. Error: "..s)
+warn("e"..s)
 
 p:Destroy()
 end
